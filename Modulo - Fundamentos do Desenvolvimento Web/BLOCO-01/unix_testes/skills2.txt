@@ -1,0 +1,8 @@
+Internet
+Unix
+Bash
+hardware
+Gerenciamento
+Python
+JavaScript
+Java
