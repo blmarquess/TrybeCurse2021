@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Algoritimo 01</title>
+    <style>
+        body {
+        align-items: center;
+        background-color: rgb(3,107,82);
+        color: rgb(249, 250, 249);
+        font-family: Roboto,RobotoDraft,Helvetica,Arial,sans-serif;
+        font-display: center;
+        
+    }
+    </style>
+
+</head>
+<body>
+<h2>Primeiro Algoritimo</h2>
+    1- Crie um algoritmo que recebe o nome de uma pessoa e retorna a frase: “Olá, nomeDaPessoa! Seja bem-vinda à nossa Tribo!”
+    <h4>Rodar Primeiro Algoritimo!</h4>
+    <input type="button" value="Iniciar Alg01" onclick=alg01()> 
+
+<script>
+    function alg01(){
+        let name = prompt ("Qual o seu nome ?")
+        alert ("Olá, " + name + " Seja bem-vinda à nossa Tribo!")
+    }
+</script>
+<container aling="center">
+<h2>Segundo Algoritimo</h2>
+2- Crie um algoritmo que calcula a média aritmética de uma pessoa estudante. Esse algoritmo deve receber como entrada 5 notas e retornar a média final da pessoa.
+    <h4>Rodar Segundo Algoritimo!</h4>
+    <input type="button" value="Iniciar Alg02" onclick=alg02()>
+
+<script>
+    function alg02(){
+        let not1 = parseInt(prompt ("Qual a sua nota na primeira avaliação?"))
+        let not2 = parseInt(prompt ("Qual a sua nota na segunda avaliação?"))
+        let not3 = parseInt(prompt ("Qual a sua nota na terceira avaliação?"))
+        let not4 = parseInt(prompt ("Qual a sua nota na quarta avaliação?"))
+        let not5 = parseInt(prompt ("Qual a sua nota na quinta avaliação?"))
+        let some = not1 + not2 + not3 + not4 + not5;
+        let result = some / 5;
+        alert(" A sua media final foi " + result);
+    } 
+</script>
+
+
+<h2>Terceiro Algoritimo</h2>
+3- Crie um algoritmo que receba dois números inteiros que serão armazenados em variáveis e retorne uma saída com os número 
+trocados. Ex: entrada: A = 3 e B = 6; saída: A = 6 e B = 6. 
+    <h4>Rodar Terceiro Algoritimo!</h4>
+    <input type="button" value="Iniciar Alg03" onclick=alg03()>
+
+<script>
+    function alg03(){
+        let vlA= parseInt(prompt ("Informe qual o valor de A:"))
+        let vlB = parseInt(prompt ("Informe qual o valor de B:"))
+        vlA = vlB
+        alert("O valor de A é:" + vlA +"\nO valor de B é: " + vlB + "!");
+    }
+</script>
+</container>
+
+</body>
+</html>
