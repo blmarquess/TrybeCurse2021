@@ -1,0 +1,57 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+  }
+
+  p, li {
+    color: #475550;
+    font-size: 16px;
+  }
+
+  .trybe-green {
+    color: #11a36a;
+  }
+
+  .hero-title {
+    color: #0a7e51;
+    font-size: 45px;
+    font-weight: 600;
+    line-height: 55px;
+  }
+  .section-title {
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 42px;
+  }
+  .section-title-2 {
+    color: #0a7e51;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 5px;
+  }
+  .section-title-3 {
+    color: #273f36;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 5px;
+  }
+  .picture {
+    border-radius: 100%;
+  }
+
+  .testemonial-name {
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+  }
+
+  .button {
+    color: #fff;
+    background-color: #11a36a;
+    padding: 15px 30px;
+    text-decoration: none;
+    border-radius: 4px;
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 700;
+    margin: 5px;
+  }
