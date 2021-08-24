@@ -1,0 +1,77 @@
+.super-mario0 {
+    width: 200px;
+  }
+  
+  .goomba0 {
+    width: 100px;
+  }
+  
+  .baloon0 {
+  
+  }
+  
+  .speach0 {
+    font-size: 25px;
+  }
+  
+  .bowser0 {
+    width: 200px;
+  }
+.proposta{
+  display: block;
+  width: 900px;
+  height: 900px;
+  margin: 20px;
+}
+.resposta{
+  display: block;
+  width: auto;
+  margin: 20px;
+}
+
+  .super-mario {
+    width: 200px;
+    position: relative;
+    left: 40px;
+  }
+  .goomba {
+    width: 100px;
+    position: relative;
+    top: 95px;
+    left: -100px;
+  } 
+  .baloon {
+  z-index: -1;
+  position: absolute;
+  float: left;
+  top: 1000px;
+  right: 320px;
+    }
+  
+  .speach {
+    font-size: 25px;
+    position: absolute;
+    float: left;
+    top: 1050px;
+    right: 360px;
+    
+  }
+  
+  .bowser {
+    width: 200px;
+    position: relative;
+    float: right;
+    right: 150px;
+    top: auto;
+  }
+
+  .browser-talk {
+    height: 350px;
+  }
+
+  .mario {
+    width: 95%;
+    height: 230px;
+    display: block;
+
+  }
