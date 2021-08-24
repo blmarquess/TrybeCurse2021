@@ -75,3 +75,6 @@
     display: block;
 
   }
+  li:hover{
+    color: rgb(167, 15, 228);
+  }
