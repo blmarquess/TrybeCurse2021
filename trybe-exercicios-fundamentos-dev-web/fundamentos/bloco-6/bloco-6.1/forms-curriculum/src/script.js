@@ -10,9 +10,10 @@ function addUFs () {
 }
 addUFs();
 
-function validaData(date) {
-  const datePass = document.qiuerySelector(#dataIn);
-  if datePass !== (0[1 - 9] | [12][0 - 9] | 3[01]) / (0[1 - 9] | 1[012]) / (19 | 20) \d{ 2 } {
-    alert("");
+function validaData() {
+  const dateInsp = document.querySelector('#dataInicio');
+  if (dateInsp !== RegExp((0[1-9]|[12][0-9]|3[01])/(0[1-9]|1[012])/(19|20)\d{2}) ) {
+    return alert("");
   }
 }
+validaData();
