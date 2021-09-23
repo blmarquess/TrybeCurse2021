@@ -5,106 +5,67 @@
   font-family: 'Ubuntu';
 }
 
-body {
-  background-color: rgb(247, 247, 247);
+.header-img {
+  width: 70px;
 }
 
-h2 {
-  text-align: center;
-  display: flex;
+.gallery-img {
+  width: 150px;
 }
 
-.header-container {
-  background-color: #5C687C;
-  display: flex;
+.social-img {
+  width: 25px;
+  margin-left: 10px;
 }
 
-.logo-container {
-  display: flex;
-  justify-content: center;
-  flex-basis: 268px;
-  order: 1;
-}
-
-.menu-container {
-  display: flex;
-  flex-basis: 500px;
-  order: 2;
-  flex-grow:2;
-}
-
-.menu-container ul {
+header {
   display: flex;
   justify-content: space-around;
-  width: 100%;
-
-}
-
-.menu-container li {
+  background-color: rgb( 50 ,52 ,51 );
   color: white;
-  font-weight: 500;
-  font-size: 1.3rem;
-  list-style: none;
-  margin-right: 10px;
-  order: 1;
-  align-self: center;
-}
-.main-container {
-  display: flex;
-  flex-wrap: wrap;
-}
-
-.movie-container {
-  display: flex;
-  flex-direction: column;
-  text-align: center;
-  flex-grow: 10;
-}
-
-.movie-container h2 {
-  margin: 40px 0;
-  text-align: center;
-  display: flex;
-  text-align: center;
-  justify-content: center;
-}
-
-.card-container {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  flex-basis: 700px;
-}
-
-.card-container div {
   align-items: center;
-  background-color: #5C687C;
-  border: black solid 1px;
+}
+
+section {
   display: flex;
-  height: 150px;
   justify-content: center;
-  margin: 10px;
-  flex-basis: 16%;
-  flex-grow: 10;
+  flex-grow: 1;
+  padding: 5px;
+  margin: 5px;
 }
 
-.aside-container {
+footer {
   display: flex;
-  flex-direction: column;
-  margin: 20px;
-  flex-basis: 350px;
-  order: 2;
-  align-self: center;
-  text-align: center;
-  flex-shrink: 4;
+  justify-content: center;
+  align-self: baseline;
 }
 
-.aside-container h3, h4 {
-  margin-bottom: 10px;
-  text-align: center;
+hr {
+  display: inline-flex;
+  align-items: flex-end;
+  align-self: flex-end;
+
 }
 
-.aside-container p {
-  margin: 10px 0;
-  text-align: justify;
+h4 {
+  display: flex;
+  justify-content: center;
+}
+
+#hhr {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 5px;
+  padding: 5px;
+  width: 150px;
+}
+
+.techs{
+  display: flex;
+  justify-content: center;
+  width: 600px;
+  margin: 10px;
+  padding: 10px;
+  flex-wrap: wrap;
 }
