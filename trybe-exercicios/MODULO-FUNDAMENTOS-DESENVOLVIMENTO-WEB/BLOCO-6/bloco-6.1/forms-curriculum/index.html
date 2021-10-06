@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FormCurriculusm</title>
+  <link rel="stylesheet" href="./model/style.css">
+</head>
+<body>
+
+  <fieldset >
+    <label for="name">  Digite seu nome: 
+      <input type="text" maxlength="40" name="nome" required id="name" placeholder="Nome completo.">
+    </label> 
+    <label for="email"> E-mail: 
+      <input type="email" name="email" maxlength="50" id="email" required>
+    </label>
+    <label for="cpf"> CPF:
+      <input type="number" name="cpf" maxlength="11" minlength="11" id="cpf">
+    </label>
+    <label for="endereco"> Endereço:
+      <input type="text" name="text" id="endereco" maxlength="200" required>
+    </label>
+    <label for="cidade"> Cidade:<input type="text" maxlength="28" id="cidade" required>
+    </label>
+    <label for="estago">UF: <select name="uf" id="uf" required placeholder="UF"></select> </label>
+    <label for="casa"><input type="radio" name="lugadouro" id="casa">Casa</label>
+    <label for="apartamento"><input type="radio" name="lugadouro" id="apartamento"> Apartamento</label>
+  </fieldset>
+  <fieldset>
+    <label for="textArea"> Resumo do currículo:
+      <textarea name="sobre-mim" id="textArea" cols="40" rows="10" maxlength="1000" required></textarea>
+    </label>
+    <label for="cargo">Cargo: <input type="text" name="cargo" id="cargo"></label>
+    <label for="cargo">Descrição do cargo:<input type="text" name="desc-cargo" id="desc-cargo" required maxlength="500"></label>
+    <label for="cargo">Data de inicio: <input type="text" name="data-inicio" id="dataInicio" pattern="(0[1-9]|[12][0-9]|3[01])/(0[1-9]|1[012])/(19|20)\d{2}" required></label>
+
+  </fieldset>
+  
+
+  <script src="./src/script.js"></script>
+</body>
+</html>

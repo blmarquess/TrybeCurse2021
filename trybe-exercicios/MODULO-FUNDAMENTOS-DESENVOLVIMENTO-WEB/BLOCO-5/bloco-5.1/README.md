@@ -1,0 +1,1 @@
+Neste bloco estamos iniciano os estudos do DOM e a inteiração do JavaScript com o conteudo das paginas HTML atrabez do DOM.
