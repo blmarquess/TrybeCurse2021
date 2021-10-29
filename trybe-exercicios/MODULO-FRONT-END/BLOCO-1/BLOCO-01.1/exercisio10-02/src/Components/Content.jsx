@@ -33,7 +33,7 @@ class Content extends React.Component {
           {conteudos.map(conteudo => (
             <li key={conteudo.conteudo}>
               <span>{conteudo.conteudo}</span>
-              <span>Bloco {conteudo.bloco} </span>
+              <span> Bloco {conteudo.bloco} </span>
               <span> {conteudo.status}</span>
             </li>
           ))}
